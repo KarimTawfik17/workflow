@@ -8,7 +8,7 @@ This task uses:
 
 ## How to start developing
 
-1. create a branch with your page-name or the feature you're adding, like `pages/karim`, `pages/ahmed`, `features/header`, `features/buttons`.
+1. create a branch with your page-name or the feature you're adding, like `pages/add-new-machine`, `pages/login`, `features/header`, `features/buttons`.
 2. create a page named >> *yourname*.pug in *workflow/src/*.
 3. add your own sections in *workflow/src/includes/* and include inside your own page **check karim.pug**.
 4. to open browser directly to your file :
