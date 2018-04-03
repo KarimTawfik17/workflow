@@ -1,39 +1,16 @@
-# Workflow
+# Sirius task
 
-This is a simple workflow for building HTML/CSS/JavaScript applications based on Gulp. It uses:
+This task uses:
 * Pug as an HTML preprocessor
 * PostCSS
 * Babel for JavaScript
 * Browserify for bundling
 
-## How to use
-
-### Starting development server
-
-```sh
-# YARN
-yarn start
-
-# NPM
-npm run start
-```
-
-### Creating a build
-
-```sh
-# YARN
-yarn build
-
-# NPM
-npm run build
-```
-
-### Serving a build
-
-```sh
-# YARN
-yarn serve
-
-# NPM
-npm run serve
-```
+## How to start developing -
+- create a page named >> *yourname*.pug in *workflow/src/*
+- add your own sections in *workflow/src/includes/* and include inside your own page -- check karim.pug --
+- to open browser directly to your file :
+-- open *gulpfile.js*
+-- edit lines 173,195 to your page name
+-- save it 
+- -if needed- add your styles in the right place w rbna ystor :D 

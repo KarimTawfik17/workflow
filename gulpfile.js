@@ -170,6 +170,7 @@ gulp.task('serve', () => {
       port: 9000,
       server: {
         baseDir: ['.tmp', 'src'],
+        index: "karim.html", // change karim.html to your page name 
         routes: {
           '/node_modules': 'node_modules'
         }
@@ -190,7 +191,8 @@ gulp.task('serve:dist', ['default'], () => {
     notify: false,
     port: 9000,
     server: {
-      baseDir: ['dist']
+      baseDir: ['dist'],
+      index: "karim.html" // change karim.html to your page name 
     }
   });
 });
